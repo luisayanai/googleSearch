@@ -1,0 +1,49 @@
+body {
+    /*background-color: rgb(222, 220, 220); */
+    background-image: url("wallpaper.jpg");
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(154, 227, 221);
+    margin: auto;
+    margin-top:200px;
+}
+
+input[type=text] {
+    width: 400px;
+    font-size: 15px;
+    margin-left: 33%;
+
+}
+
+input[type=submit] {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    background-color: grey;
+    margin-left: 47%;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(81, 80, 80);
+    border: 3px solid rgb(81,80,80);
+}
+
+.bar {
+    margin-top: 10px;
+    padding: 3px 10px;
+    border: 2px solid rgb(107, 107, 107);
+}
+
+button {
+    margin-left: 90%;
+    background-color: grey;
+}
+
+button:hover {
+    background-color: rgb(81, 80, 80);
+    border: 3px solid rgb(81,80,80);
+}
+
