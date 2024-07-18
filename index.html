@@ -7,18 +7,22 @@
     </head>
 
     <body>
-        <div>
-            <a href="imgSearch.html"><button class="bar">Image Search</button></a>
-            <a href="advSearch.html"><button>Advanced Search</button></a>
+        <div class="container">
+            <a href="imgSearch.html"><button id="Img-button">Image Search</button></a>
+            <a href="advSearch.html"><button id="Adv-button">Advanced Search</button></a>
         </div>
 
-        <div>
-             <h1>Google</h1>
-            <form action="https://google.com/search" method="get">
-                <input type="text" placeholder="Type" name="q" class="bar">
-                <input type="submit" value="Google Search" class="bar">
-                <input type="submit" value="I'm feeling lucky" name="btnI">
-        </form>
+        <div class="main-content">
+            <h1>Google</h1>
+
+            <form action="https://google.com/search" method="get" class="search-form">
+                <input type="text" placeholder="Type" name="q" id="bar">
+                
+                <div class="button-group">
+                    <input type="submit" value="Google Search" id="search-button">
+                    <input type="submit" value="I'm feeling lucky" name="btnI">
+                </div>
+            </form> 
         </div>
         
     </body>

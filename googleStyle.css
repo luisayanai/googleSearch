@@ -1,48 +1,71 @@
 body {
     background-color: #303134;
+    
 }
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+#Img-button, #Adv-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px 10px;
+    font-size: 12px; 
+    border: none;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 50px;
-    color: rgb(40, 41, 41);
-    margin: auto;
-    margin-top:200px;
+    font-size: 70px;
+    color: rgb(162, 162, 162);
+    margin-bottom: 20px;
 }
 
-input[type=text] {
-    width: 400px;
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bar {
+    padding: 10px;
+    width: 300px;
+    border-radius:25px;
     font-size: 15px;
-    margin-left: 33%;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+    padding: 20px 10px;
 
 }
 
-input[type=submit] {
-    width: auto;
-    text-align: center;
-    font-size: 18px;
-    background-color: grey;
-    margin-left: 47%;
+#search-button, [name="btnI"] {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-input[type=submit]:hover {
-    background-color: rgb(81, 80, 80);
-    border: 3px solid rgb(81,80,80);
-}
 
-.bar {
-    margin-top: 10px;
-    padding: 3px 10px;
-    border: 2px solid rgb(107, 107, 107);
-}
-
-button {
-    margin-left: 90%;
-    background-color: grey;
-}
-
-button:hover {
-    background-color: rgb(81, 80, 80);
-    border: 3px solid rgb(81,80,80);
+#search-button:hover, [name="btnI"]:hover, button:hover {
+    background-color: #28282b;
 }
 

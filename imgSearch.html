@@ -6,15 +6,17 @@
         <link rel="stylesheet" href="googleStyle.css">
     </head>
     <body>
-        <a href="index.html"><button>Google Search</button></a>
+        <div class="container">
+            <a href="index.html"><button>Google Search</button></a>
+        </div>
 
-        <div>
+        <div class="main-content">
             <h1>Google</h1>
-            <form action="https://google.com/search">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="text" placeholder="Type" name="q">
-            <input type="submit" value="Google Search" class="bar">
-        </form>
+            <form action="https://google.com/search" class="search-form">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" placeholder="Type" name="q" id="bar">
+                <input type="submit" value="Google Search" id="search-button">
+            </form>
         </div>
         
     </body>
