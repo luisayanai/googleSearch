@@ -1,36 +1,43 @@
 body {
-    background-color: #303134;
-    
+    background-color: #242527;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
 }
 
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;  /*aligned to the right*/
     height: 20px;
-    align-items: center;
     padding: 20px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
-#Img-button, #Adv-button {
+#Img-button, #Adv-button, #index-page {
+    background-color: #303134;
+    color: white;
     margin-left: 10px;
     margin-right: 10px;
     padding: 4px 10px;
-    font-size: 12px; 
+    font-size: 13px; 
     border: none;
+    border-radius: 5px;
 }
 
 .main-content {
     text-align: center;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 80%;
+    max-width: 600px;
 }
 
 h1 {
-    text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 70px;
-    color: rgb(162, 162, 162);
+    font-size: 500%;
+    color: rgb(236, 236, 236);
     margin-bottom: 20px;
 }
 
@@ -42,30 +49,34 @@ h1 {
 
 #bar {
     padding: 10px;
-    width: 300px;
-    border-radius:25px;
+    width: 400px;
+    border-radius:30px;
+    border: 1px solid rgb(155, 154, 154);
+    background-color: transparent;
     font-size: 15px;
     margin-bottom: 10px;
 }
 
 .button-group {
     display: flex;
-    justify-content: flex-end;
-    height: 20px;
+    height: 10px;
     align-items: center;
-    padding: 20px 10px;
-
+    padding: 20px;
 }
 
 #search-button, [name="btnI"] {
-    padding: 10px 20px;
-    font-size: 14px;
+    background-color: #303134;
+    color: white;
+    padding: 7px 17px;
+    font-size: 13px;
     margin-left: 10px;
     margin-right: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 
-#search-button:hover, [name="btnI"]:hover, button:hover {
+#search-button:hover, [name="btnI"]:hover, #Img-button:hover, #Adv-button:hover, #index-page:hover{
     background-color: #28282b;
 }
 
