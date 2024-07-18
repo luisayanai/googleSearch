@@ -100,17 +100,25 @@ h1 {
     color: white;
 }
 
+label {
+    width: 250px;
+}
+
+.input-field {
+    background-color: transparent;
+    width: 300px;
+    border: 1px solid rgb(117, 116, 116);
+}
+
 .row {
     color: grey;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
 }
 
-.input-field {
-    margin-left: 1em;
-}
-
+/*Advanced Search button*/
 #Adv-Search {
     padding: 7px;
     background-color: #8ab4f8;
