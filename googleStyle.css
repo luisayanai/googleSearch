@@ -1,4 +1,4 @@
-body {
+.default-body {
     background-color: #242527;
     display: flex;
     justify-content: center;
@@ -6,6 +6,7 @@ body {
     min-height: 100vh; 
 }
 
+/*upper-right buttons to go to the other pages*/
 .container {
     display: flex;
     justify-content: flex-end;  /*aligned to the right*/
@@ -27,6 +28,7 @@ body {
     border-radius: 5px;
 }
 
+/*heading, forms and buttons*/
 .main-content {
     text-align: center;
     /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
@@ -47,16 +49,20 @@ h1 {
     align-items: center;
 }
 
+/*search-bar*/
 #bar {
     padding: 10px;
+    padding-left: 15px;
     width: 400px;
     border-radius:30px;
     border: 1px solid rgb(155, 154, 154);
     background-color: transparent;
     font-size: 15px;
     margin-bottom: 10px;
+    color: white;
 }
 
+/*Google Search and I'm Feeling Lucky buttons*/
 .button-group {
     display: flex;
     height: 10px;
@@ -75,8 +81,46 @@ h1 {
     border-radius: 5px;
 }
 
-
 #search-button:hover, [name="btnI"]:hover, #Img-button:hover, #Adv-button:hover, #index-page:hover{
     background-color: #28282b;
+}
+
+/*Advanced Search page*/
+.adv-body {
+    background-color: #242527;
+    font-family: arial, sans-serif;
+}
+#advanced-heading {
+    color: rgb(189, 108, 108);
+}
+
+.main-advanced {
+    margin-top: 50px;
+    margin-left: 30px;
+    color: white;
+}
+
+.row {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-field {
+    margin-left: 1em;
+}
+
+#Adv-Search {
+    padding: 7px;
+    background-color: #8ab4f8;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+
+#Adv-Search:hover {
+    background-color: #a9c7f7;
+    cursor:pointer;
 }
 

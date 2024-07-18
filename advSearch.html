@@ -5,29 +5,44 @@
         <title>Advanced Search</title>
         <link rel="stylesheet" href="googleStyle.css">
     </head>
-    <body>
-        <div>
+    <body class="adv-body">
+        <div class="container">
             <a href="index.html"><button id="index-page">Google Search</button></a>
         </div>
 
         <!--Forms-->
-        <h4>Find pages with...</h4>
-        <div>
-            <h6>all these words:</h6>
-            <form action="https://google.com/search">
-                <input type="text" name="as_q">
-            
-                <h6>this exact word or phrase:</h6>
-                <input type="text" name="as_epq">
-            
-                <h6>any of these words:</h6>
-                <input type="text" name="as_oq">
-            
-                <h6>none of these words:</h6>
-                <input type="text" name="as_eq">
+        <div class="main-advanced">
 
-                <input type="submit" value="Advanced Search">
-            </form>
+            <h2 id="advanced-heading">Advanced Search</h2>
+            <hr><br>
+            <h3>Find pages with...</h3>
+
+            <div class="advanced-forms">
+                
+                <form action="https://google.com/search">
+                    <div class="row">
+                        <h5 class="text-field">all these words:</h5>
+                        <input class="input-field" type="text" name="as_q">
+                    </div>
+                    
+                    <div class="row">
+                        <h5 class="text-field">this exact word or phrase:</h5>
+                        <input class="input-field" type="text" name="as_epq">
+                    </div>
+
+                    <div class="row">
+                        <h5 class="text-field">any of these words:</h5>
+                        <input class="input-field" type="text" name="as_oq">
+                    </div>
+            
+                    <div class="row">
+                        <h5 class="text-field">none of these words:</h5>
+                        <input class="input-field" type="text" name="as_eq">
+                    </div>
+
+                    <input type="submit" value="Advanced Search" id="Adv-Search">
+                </form>
+            </div>
         </div>
     </body>
 </html>
