@@ -26,6 +26,7 @@
     font-size: 13px; 
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /*heading, forms and buttons*/
@@ -79,6 +80,7 @@ h1 {
     margin-right: 10px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #search-button:hover, [name="btnI"]:hover, #Img-button:hover, #Adv-button:hover, #index-page:hover{
